@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id" data-tema="netral">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>GOWES — Papan Gambar Rute Sepeda Indonesia</title>
+<meta name="description" content="GOWES: papan gambar teknik untuk merancang, mengukur, dan mencatat rute sepeda di 12 kota Indonesia. 16 rute, perencana jarak, dan log gowes.">
+<meta name="theme-color" content="#eef4ec">
+<link rel="canonical" href="https://kayzenn123.github.io/agent-gowes-v2/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="GOWES — Papan Gambar Rute Sepeda">
+<meta property="og:description" content="Ukur dulu, gowes kemudian. 16 rute sepeda Indonesia di atas satu lembar gambar teknik.">
+<meta property="og:image" content="https://kayzenn123.github.io/agent-gowes-v2/og-image.png">
+<meta property="og:url" content="https://kayzenn123.github.io/agent-gowes-v2/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="preload" href="fonts/zain-900.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/epunda-sans-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/aguafina-script-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip t-s" href="#lembar-b">Lompat ke konten</a>
+
+<nav class="indeks" aria-label="Indeks lembar gambar">
+  <p class="t-s indeks-judul">INDEKS<br>LEMBAR</p>
+  <a class="t-s" href="#lembar-a" data-nav="a" aria-label="Lembar A: Kop gambar"><span aria-hidden="true">A</span></a>
+  <a class="t-s" href="#lembar-b" data-nav="b" aria-label="Lembar B: Katalog rute"><span aria-hidden="true">B</span></a>
+  <a class="t-s" href="#lembar-c" data-nav="c" aria-label="Lembar C: Perencana"><span aria-hidden="true">C</span></a>
+  <a class="t-s" href="#lembar-d" data-nav="d" aria-label="Lembar D: Log dan checklist"><span aria-hidden="true">D</span></a>
+  <button class="t-s" id="btnJeda" aria-pressed="false" aria-label="Jeda atau jalankan pita berjalan">JEDA</button>
+  <button class="t-s" id="btnGerak" aria-pressed="true" aria-label="Nyalakan atau matikan gerak">GERAK: YA</button>
+</nav>
+
+<header class="kop lembar" id="lembar-a">
+  <div class="kop-tabel t-s" role="presentation">
+    <div><span>PROYEK</span><strong>GOWES / 30 DAYS OF CODE</strong></div>
+    <div><span>JUDUL</span><strong>PAPAN GAMBAR RUTE SEPEDA</strong></div>
+    <div><span>SKALA</span><strong>1:50.000</strong></div>
+    <div><span>LEMBAR</span><strong>A-01</strong></div>
+    <div><span>TANGGAL</span><strong>03-11-2026</strong></div>
+    <div><span>DIGAMBAR</span><strong>PAK DRAFTER</strong></div>
+  </div>
+
+  <p class="t-s kicker">LEMBAR A — KOP GAMBAR · HARI 25</p>
+  <h1 class="t-xl judul-utama" data-scramble>GOWES</h1>
+  <p class="t-m sub-judul">Papan gambar rute sepeda Indonesia.<br>Ukur dulu, gowes kemudian.</p>
+
+  <div class="peta-hero" id="petaHero">
+    <svg class="lapis lapis-rute" data-depth="0.04" viewBox="0 0 1200 520" aria-hidden="true">
+      <path id="ruteHero" d="M40,420 C180,380 220,240 360,260 C500,280 520,140 660,160 C800,180 820,320 960,300 C1040,290 1100,220 1160,240" fill="none" stroke="var(--accent)" stroke-width="6"/>
+      <circle cx="40" cy="420" r="10" fill="var(--pop)"/>
+      <circle cx="1160" cy="240" r="10" fill="none" stroke="var(--pop)" stroke-width="5"/>
+    </svg>
+    <svg class="lapis lapis-dimensi" data-depth="0.09" viewBox="0 0 1200 520" aria-hidden="true">
+      <g stroke="var(--accent-2)" stroke-width="2">
+        <line x1="40" y1="470" x2="1160" y2="470"/><line x1="40" y1="460" x2="40" y2="480"/><line x1="1160" y1="460" x2="1160" y2="480"/>
+      </g>
+      <text x="600" y="505" text-anchor="middle" class="svg-s">112,0 KM · SKALA 1:50.000 · TOLERANSI ±5%</text>
+    </svg>
+    <div class="lapis lapis-stempel" data-depth="0.14" aria-hidden="true"><span class="stempel t-s">LULUS<br>UKUR</span></div>
+    <svg class="lapis lapis-kompas" data-depth="0.20" viewBox="0 0 120 120" aria-hidden="true">
+      <circle cx="60" cy="60" r="52" fill="none" stroke="var(--text)" stroke-width="3"/>
+      <path d="M60,14 L72,60 L60,106 L48,60 Z" fill="var(--pop)"/>
+      <path d="M14,60 L60,48 L106,60 L60,72 Z" fill="var(--text)"/>
+      <text x="60" y="10" text-anchor="middle" class="svg-s">U</text>
+    </svg>
+    <p class="lapis lapis-corat t-s" data-depth="0.26" aria-hidden="true">ukur dulu, Mas!</p>
+  </div>
+
+  <a class="t-m tombol tombol-utama" href="#lembar-b">MULAI MENGUKUR ↓</a>
+  <p class="t-s catatan-kaki">Geser ke bawah = membuka gulungan gambar · keyboard 1–4 pindah lembar</p>
+</header>
+
+<div class="pita" role="marquee" aria-label="Pita berjalan">
+  <div class="pita-band pita-1" aria-hidden="true"><div class="pita-isi t-s" data-pita></div></div>
+  <div class="pita-band pita-2" aria-hidden="true"><div class="pita-isi t-s" data-pita></div></div>
+  <div class="pita-band pita-3" aria-hidden="true"><div class="pita-isi t-s" data-pita></div></div>
+</div>
+
+<main id="konten">
+  <section class="lembar" id="lembar-b" aria-labelledby="judul-b" tabindex="-1">
+    <p class="t-s kicker">LEMBAR B — DENAH</p>
+    <h2 class="t-xl" id="judul-b" data-scramble>KATALOG RUTE</h2>
+    <p class="t-m">16 rute terukur di 12 kota. Jarak & elevasi = <strong>estimasi (contoh)</strong>, bukan hasil survei. Arahkan kursor ke kartu = ganti waktu gowes.</p>
+
+    <form class="filter t-s" id="formFilter" aria-label="Saring rute">
+      <label>CARI <input type="search" id="q" class="t-s" placeholder="cth: lembang" autocomplete="off"></label>
+      <label>KOTA <select id="fKota" class="t-s"><option value="">Semua kota</option></select></label>
+      <label>LEVEL <select id="fLevel" class="t-s"><option value="">Semua</option><option>Santai</option><option>Sedang</option><option>Nanjak</option></select></label>
+      <label>JALAN <select id="fJalan" class="t-s"><option value="">Semua</option><option>Aspal</option><option>Paving</option><option>Campur</option></select></label>
+      <label>URUT <select id="fUrut" class="t-s"><option value="jarak">Terpendek</option><option value="-jarak">Terjauh</option><option value="elevasi">Tanjakan ringan</option><option value="-elevasi">Tanjakan berat</option></select></label>
+    </form>
+
+    <div class="detail-rute" id="detailRute" hidden></div>
+    <div class="bento bento-katalog" id="gridRute" role="list" aria-live="polite"></div>
+    <p class="t-s kosong" id="kosongRute" hidden>Di luar toleransi, Mas — tidak ada rute yang cocok. Longgarkan saringannya.</p>
+  </section>
+
+  <section class="lembar" id="lembar-c" aria-labelledby="judul-c" tabindex="-1">
+    <p class="t-s kicker">LEMBAR C — PERHITUNGAN</p>
+    <h2 class="t-xl" id="judul-c" data-scramble>PERENCANA</h2>
+    <p class="t-m">Masukkan target, biar penggaris yang bicara. Kalori & hidrasi = <strong>estimasi (contoh)</strong>.</p>
+    <form class="bento bento-rencana t-s" id="formRencana" novalidate>
+      <label class="petak">KOTA TUJUAN
+        <select id="rKota" class="t-s" required></select>
+      </label>
+      <label class="petak">TARGET JARAK (KM)
+        <input type="number" id="rJarak" class="t-s" min="1" max="200" value="15" required inputmode="decimal">
+      </label>
+      <label class="petak">KECEPATAN RATA-RATA
+        <select id="rSpeed" class="t-s"><option value="15">15 km/jam · santai</option><option value="20" selected>20 km/jam · sedang</option><option value="25">25 km/jam · ngebut</option></select>
+      </label>
+      <button type="submit" class="t-m tombol petak">UKUR →</button>
+      <p class="t-s galat" id="galatRencana" role="alert" hidden></p>
+    </form>
+    <div class="bento bento-hasil" id="hasilRencana" aria-live="polite"></div>
+  </section>
+
+  <section class="lembar" id="lembar-d" aria-labelledby="judul-d" tabindex="-1">
+    <p class="t-s kicker">LEMBAR D — CATATAN LAPANGAN</p>
+    <h2 class="t-xl" id="judul-d" data-scramble>LOG & GEAR</h2>
+    <div class="bento bento-d">
+      <div class="petak petak-log">
+        <h3 class="t-m">BUKU CATATAN GOWES</h3>
+        <div class="odometer"><span class="t-s">TOTAL JARAK</span><strong class="t-xl" id="odoKm" data-scramble>0</strong><span class="t-s">KM</span></div>
+        <p class="t-s ringkas" id="ringkasLog">Belum ada catatan.</p>
+        <form class="t-s" id="formLog" novalidate>
+          <label>RUTE <select id="lRute" class="t-s" required></select></label>
+          <label>TANGGAL <input type="date" id="lTgl" class="t-s" value="2026-11-03" required></label>
+          <label>JARAK (KM) <input type="number" id="lKm" class="t-s" min="0.5" max="500" step="0.5" required inputmode="decimal"></label>
+          <label>DURASI (MENIT) <input type="number" id="lMnt" class="t-s" min="1" max="1440" required inputmode="numeric"></label>
+          <button type="submit" class="t-s tombol">CATAT →</button>
+          <p class="t-s galat" id="galatLog" role="alert" hidden></p>
+        </form>
+        <div class="t-s aksi-log">
+          <button id="btnEksporJson" class="t-s tombol tombol-kecil">UNDUH JSON</button>
+          <button id="btnEksporCsv" class="t-s tombol tombol-kecil">UNDUH CSV</button>
+          <button id="btnSalinWa" class="t-s tombol tombol-kecil">SALIN WA</button>
+        </div>
+        <ul class="t-s daftar-log" id="daftarLog"></ul>
+        <p class="t-s kosong" id="kosongLog">Kertas masih kosong, Mas. Ukur dulu, gowes kemudian.</p>
+      </div>
+      <div class="petak petak-gear">
+        <h3 class="t-m">CEK GEAR <span class="t-s" id="gearPersen">0/10</span></h3>
+        <div class="bar" role="progressbar" aria-label="Kelengkapan gear" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0" id="gearBar"><i></i></div>
+        <ul class="t-s daftar-gear" id="daftarGear"></ul>
+        <button class="t-s tombol tombol-kecil" id="btnResetGear">ULANGI CEK</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="lembar final" id="lembar-e" aria-labelledby="judul-e" tabindex="-1">
+    <p class="t-s kicker">LEMBAR E — GAMBAR UTUH</p>
+    <h2 class="t-xl" id="judul-e" data-scramble>SELESAI DIGAMBAR</h2>
+    <div class="lembar-mini" aria-hidden="true">
+     <div class="mini-isi" id="miniIsi">
+      <div class="mini-kop t-s">GOWES · A-01 · 1:50.000</div>
+      <div class="mini-grid"></div>
+      <svg viewBox="0 0 1200 520"><path d="M40,420 C180,380 220,240 360,260 C500,280 520,140 660,160 C800,180 820,320 960,300 C1040,290 1100,220 1160,240" fill="none" stroke="var(--accent)" stroke-width="10"/></svg>
+      <div class="mini-stempel t-s">LULUS UKUR</div>
+     </div>
+    </div>
+    <p class="t-m tanda-tangan">Digambar dengan penggaris, bukan perasaan.<br><span class="t-s">— Pak Drafter, 03-11-2026</span></p>
+    <p class="t-s"><a class="tautan-44" href="#lembar-a">↑ Kembali ke kop gambar</a></p>
+  </section>
+</main>
+
+<footer class="t-s">
+  <p>GOWES · Hari 25 · 30 Days of Code · Jarak/elevasi/kalori = estimasi (contoh) · Data tersimpan lokal di perambanmu</p>
+  <p>Font: Zain · Epunda Sans · Aguafina Script (OFL) · Ikon: digambar sendiri (geometris bulat)</p>
+</footer>
+
+<div class="stempel-rahasia" id="stempelRahasia" hidden role="status">
+  <span class="stempel t-m">DISETUJUI<br>PAK DRAFTER</span>
+  <p class="t-s">Easter egg ketemu! Ketik "gaspol" memang bikin Pak Drafter senang.</p>
+  <button class="t-s tombol" id="btnTutupEgg">TUTUP</button>
+</div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+<script src="js/motion.js"></script>
+</body>
+</html>
